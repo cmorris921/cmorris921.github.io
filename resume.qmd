@@ -1,0 +1,8 @@
+---
+title: "Resume"
+---
+
+<iframe width="800" height="1000"
+src="Connor_Morris_Resume.pdf">
+</iframe>
+---
