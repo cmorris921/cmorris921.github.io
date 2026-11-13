@@ -7,11 +7,60 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Connor Morris",
+    "objectID": "posts/Move-data-visualization/index.html",
+    "href": "posts/Move-data-visualization/index.html",
+    "title": "Exploring Movie Trends Through Data Visualization",
     "section": "",
-    "text": "Electrical Engineering student with experience in circuit analysis, microprocessor design, and engineering projects involving embedded systems and hardware. Interested in developing practical engineering skills and applying them in industry."
+    "text": "This project examines trends in the movie industry using four data visualizations created in Microsoft Excel. Our team investigated changes in annual movie releases, differences in audience ratings across original languages, the distribution of movie runtimes, and the relationship between movie popularity and audience engagement.\nEach research question was analyzed using a different visualization method: a time-series graph, a bar chart, a histogram, and a scatter plot. The findings were presented using assertion-evidence slides in Microsoft PowerPoint."
+  },
+  {
+    "objectID": "posts/Move-data-visualization/index.html#project-overview",
+    "href": "posts/Move-data-visualization/index.html#project-overview",
+    "title": "Exploring Movie Trends Through Data Visualization",
+    "section": "",
+    "text": "This project examines trends in the movie industry using four data visualizations created in Microsoft Excel. Our team investigated changes in annual movie releases, differences in audience ratings across original languages, the distribution of movie runtimes, and the relationship between movie popularity and audience engagement.\nEach research question was analyzed using a different visualization method: a time-series graph, a bar chart, a histogram, and a scatter plot. The findings were presented using assertion-evidence slides in Microsoft PowerPoint."
+  },
+  {
+    "objectID": "posts/Move-data-visualization/index.html#team-members",
+    "href": "posts/Move-data-visualization/index.html#team-members",
+    "title": "Exploring Movie Trends Through Data Visualization",
+    "section": "Team Members",
+    "text": "Team Members\n\nConnor Morris — ePortfolio\nArtemio Perez — ePortfolio\nTyler Johnson — ePortfolio\nKieran Reilly — ePortfolio\nJack Davis — ePortfolio link pending"
+  },
+  {
+    "objectID": "posts/Move-data-visualization/index.html#dataset-description",
+    "href": "posts/Move-data-visualization/index.html#dataset-description",
+    "title": "Exploring Movie Trends Through Data Visualization",
+    "section": "Dataset Description",
+    "text": "Dataset Description\nOur team used the TMDB Raw Movie Dataset (2010–2025), available through Zenodo.\nThe dataset contains 17,978 movie records covering releases from 2010 through 2025. It includes information such as movie release dates, original languages, audience ratings, runtimes, popularity scores, and audience vote counts.\nThese variables allowed us to investigate trends in movie releases, compare audience ratings across language groups, examine common movie lengths, and evaluate the relationship between popularity scores and audience votes.\nDataset Source: TMDB Raw Movie Dataset (2010–2025)"
+  },
+  {
+    "objectID": "posts/Move-data-visualization/index.html#visualization-1-movie-releases-over-time",
+    "href": "posts/Move-data-visualization/index.html#visualization-1-movie-releases-over-time",
+    "title": "Exploring Movie Trends Through Data Visualization",
+    "section": "Visualization 1: Movie Releases Over Time",
+    "text": "Visualization 1: Movie Releases Over Time\n\nResearch Question\nHow has the number of movies released each year changed from 2010 to 2025?\n\n\nWhy This Question Interests Us\nWe were interested in how the filmmaking industry has evolved over time, particularly as advancements in technology have made filmmaking equipment more accessible to independent filmmakers and smaller production teams. Although expensive equipment can offer production advantages, creating a compelling film does not necessarily require the most expensive cameras or resources.\nWe wanted to investigate how the number of movies released each year varied during this period. We were also interested in the effects of the COVID-19 pandemic, which disrupted film production and delayed many releases in 2020.\n\n\nHow We Used Excel\nWe used the release_date column to determine the release year of each movie. We then counted the number of movies associated with each year from 2010 through 2025.\nThese annual counts provided the data needed to construct a time-series graph showing how the number of movie records changed throughout the period.\n\n\nVisualization Development and Findings\nWe selected a line graph because it effectively illustrates changes in numerical values across chronological time.\nThe horizontal axis represents release years from 2010 through 2025, while the vertical axis represents the number of movies released in each year.\nThe graph shows that the number of movies represented in the dataset increased during the earlier years, reaching a peak of 1,426 movies in 2018. The count subsequently declined, including a noticeable decrease in 2020.\nWe emphasized the 2018 peak and the 2020 decline in our assertion-evidence slide. Although the decrease around 2020 is consistent with disruptions caused by the COVID-19 pandemic, this visualization alone cannot establish how much of the decline was directly caused by the pandemic.\n\n\n\nMovie releases represented in the dataset from 2010 to 2025."
+  },
+  {
+    "objectID": "posts/Move-data-visualization/index.html#visualization-2-audience-ratings-by-original-language",
+    "href": "posts/Move-data-visualization/index.html#visualization-2-audience-ratings-by-original-language",
+    "title": "Exploring Movie Trends Through Data Visualization",
+    "section": "Visualization 2: Audience Ratings by Original Language",
+    "text": "Visualization 2: Audience Ratings by Original Language\n\nResearch Question\nHow do average audience ratings differ between movies of different original languages?\n\n\nWhy This Question Interests Us\nMovies are produced in many different languages, and audiences around the world have access to films created in different countries and cultural contexts.\nWe were interested in exploring whether audience ratings differ significantly between movies of different original languages or whether their average ratings are relatively similar.\nComparing these ratings also provides an opportunity to examine how movies from different language groups are received by audiences represented in the dataset.\n\n\nHow We Used Excel\nWe used the original_language and vote_average columns to compare audience ratings across language groups.\nUsing an Excel PivotTable, we calculated the average audience rating for each original language and counted how many movies belonged to each group.\nTo avoid basing comparisons on languages represented by very few movies, we included only languages with at least 100 movies in the dataset. This resulted in 14 language groups.\n\n\nVisualization Development and Findings\nWe selected a horizontal bar chart to make it easy to compare average ratings across the 14 original languages.\nThe bars were arranged from highest to lowest average rating, with the highest-rated languages appearing at the top. We displayed the average ratings to two decimal places and used a horizontal rating scale from 0 to 10.\nJapanese and Korean movies had the highest average ratings, both approximately 7.03 out of 10. Chinese-language films followed with an average of approximately 6.74.\nThese results describe the movies represented in this dataset and should not be interpreted as evidence that films produced in any particular language are inherently better than others.\n\n\n\nAverage audience ratings by original language."
+  },
+  {
+    "objectID": "posts/Move-data-visualization/index.html#visualization-3-distribution-of-movie-runtimes",
+    "href": "posts/Move-data-visualization/index.html#visualization-3-distribution-of-movie-runtimes",
+    "title": "Exploring Movie Trends Through Data Visualization",
+    "section": "Visualization 3: Distribution of Movie Runtimes",
+    "text": "Visualization 3: Distribution of Movie Runtimes\n\nResearch Question\nWhat is the distribution of movie runtimes?\n\n\nWhy This Question Interests Us\nWe were interested in the differences between shorter movies and longer theatrical releases. Many movies are commonly associated with runtimes of approximately 90 minutes, but some prominent modern releases are considerably longer. For example, Avengers: Endgame runs for more than three hours, while Zack Snyder’s Justice League runs for approximately four hours.\nThese examples made us curious about how typical movie runtimes compare with particularly long films and whether longer runtimes are common throughout the dataset.\n\n\nHow We Used Excel\nWe used the runtime column to examine the distribution of movie lengths.\nDuring data preparation, we identified 46 movies with runtimes recorded as zero minutes. Because these values appeared to represent unspecified or undocumented runtimes rather than actual movie lengths, we excluded them from the histogram.\nThis left 17,932 movies with positive runtime values for analysis.\nWe then created a histogram in Excel using 20-minute intervals to group movie runtimes and count the number of movies in each interval.\n\n\nVisualization Development and Findings\nWe selected a histogram because it shows how frequently different ranges of movie runtimes occur.\nThe horizontal axis represents movie runtime intervals in minutes, while the vertical axis represents the number of movies in each interval.\nThe histogram uses 20-minute bins, allowing us to compare the frequency of shorter and longer movies without displaying every individual runtime value.\nThe most common runtime interval was 81–100 minutes. The distribution also shows that movies with considerably longer runtimes exist, but become less frequent as runtime increases.\nOur assertion-evidence slide emphasizes the most common runtime interval, providing a straightforward summary of the distribution.\n\n\n\nDistribution of movie runtimes, with 81–100 minutes as the most common interval."
+  },
+  {
+    "objectID": "posts/Move-data-visualization/index.html#visualization-4-audience-votes-and-movie-popularity",
+    "href": "posts/Move-data-visualization/index.html#visualization-4-audience-votes-and-movie-popularity",
+    "title": "Exploring Movie Trends Through Data Visualization",
+    "section": "Visualization 4: Audience Votes and Movie Popularity",
+    "text": "Visualization 4: Audience Votes and Movie Popularity\n\nResearch Question\nIs there a relationship between a movie’s popularity score and the number of audience votes it receives?\n\n\nWhy This Question Interests Us\nPopular movies often attract greater public attention and discussion, which may encourage more people to watch and rate them. However, a movie receiving many audience votes does not necessarily mean that it has a high popularity score.\nWe wanted to investigate whether movies with higher audience vote counts also tend to have higher TMDB popularity scores, and how consistently these two measures are associated.\n\n\nHow We Used Excel\nWe used the vote_count and popularity columns from the movie dataset.\nIn Excel, we created a scatter plot with audience vote counts on the horizontal axis and TMDB popularity scores on the vertical axis. Each plotted point represents a movie in the dataset.\nWe also added a linear trendline to summarize the overall relationship between the two variables. Excel provided the trendline equation and coefficient of determination (R²).\n\n\nVisualization Development and Findings\nWe selected a scatter plot because it allows us to examine the relationship between two numerical variables and identify patterns, clusters, and outliers.\nThe data show a positive association between audience vote counts and TMDB popularity scores, meaning that movies receiving more audience votes generally tend to have higher popularity scores.\nThe fitted linear regression equation is:\nPopularity = 0.0009 × Vote Count + 1.3821\nThe coefficient of determination is R² = 0.4125, indicating that the linear model explains approximately 41.25% of the variation in popularity scores within the dataset.\nThe corresponding Pearson correlation coefficient is approximately 0.642, indicating a moderately strong positive linear association.\nAlthough the trend is positive, the scatter plot also contains considerable variation and some outliers. The relationship does not establish that receiving more audience votes directly causes a movie’s popularity score to increase.\n\n\n\nRelationship between audience votes and TMDB popularity scores, including a linear regression trendline."
   },
   {
     "objectID": "about.html",
@@ -19,6 +68,13 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Connor Morris",
+    "section": "",
+    "text": "Electrical Engineering student with experience in circuit analysis, microprocessor design, and engineering projects involving embedded systems and hardware. Interested in developing practical engineering skills and applying them in industry."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -32,6 +88,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nSep 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 1, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nSep 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nExploring Movie Trends Through Data Visualization\n\n\n\n\n\n\nTeam 15\n\n\nNov 13, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
